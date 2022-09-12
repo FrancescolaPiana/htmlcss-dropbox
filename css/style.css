@@ -18,6 +18,7 @@ a{
 
 :root{
     --white: #ffffff;
+    --lightgrey: #D0D0D3;
     --grey: #4F7A8F;
     --black: #000000;
     --red: #ff0000;
@@ -117,6 +118,57 @@ h1{
 
 .jumbo{
     width: 45vw;
+}
+
+    .uno{
+        margin: 0 auto;
+        max-width: 51vw;
+    }
+
+    h2{
+        font-size: 2.1vw;
+        font-weight: 700;
+        margin-bottom: 5vh;
+    }
+
+.checkbox{
+    display: flex;
+    margin-bottom: 6vh;
+
+}
+
+.font2{
+    margin-right: 5vw;
+    margin-left: 0.5vw;
+}
+
+.radiusboxes{
+    width: 1.3vw;
+    height: 1.3vw;
+}
+
+.cards{
+    display: inline-block;
+    height: 110vh;
+    border: 1px solid var(--lightgrey) ;
+    width: calc(46vw / 3 );
+}
+
+.centr{
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 0.8vw;
+    border-bottom: 1px solid var(--lightgrey) ;
+}
+
+.price{
+    margin: 2vw;
+}
+
+.flexcards{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* ------------------------------ */
