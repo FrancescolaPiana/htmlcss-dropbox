@@ -4,7 +4,7 @@
    padding: 0;
    box-sizing: border-box;
    font-family: 'Open Sans', sans-serif;
-   /* font-family: Arial, Helvetica, sans-serif; */
+   scroll-behavior: smooth;
 }
 
 header{
@@ -77,6 +77,15 @@ nav{
     padding: 0.4vw 0.9vw;
 }
 
+.fontpropiety3{
+    font-size: 0.8vw;
+    color: var(--white);
+    background: var(--blue);
+    padding: 0.4vw;
+    text-align: center;
+}
+
+
 .firstimp{
     width: 100%;
     height: 80vh;
@@ -114,6 +123,7 @@ h1{
 
 .arrow{
     font-size: 2.5vw;
+    color: var(--black);
 }
 
 .jumbo{
@@ -126,9 +136,21 @@ h1{
     }
 
     h2{
-        font-size: 2.1vw;
+        font-size: 3.1vw;
         font-weight: 700;
         margin-bottom: 5vh;
+    }
+
+    h3{
+        font-size: 1.3vw;
+    }
+
+    h5{
+        font-size: 0.75vw;
+    }
+
+    .font5{
+        font-size: 0.75vw;
     }
 
 .checkbox{
@@ -149,7 +171,6 @@ h1{
 
 .cards{
     display: inline-block;
-    height: 110vh;
     border: 1px solid var(--lightgrey) ;
     width: calc(46vw / 3 );
 }
@@ -162,14 +183,103 @@ h1{
     border-bottom: 1px solid var(--lightgrey) ;
 }
 
-.price{
-    margin: 2vw;
-}
-
 .flexcards{
     display: flex;
     justify-content: space-between;
 }
+
+.dots{
+    display: inline-block block;
+    list-style: none;
+    padding-left: 1.3vw;
+    position: relative;
+}
+
+.user:before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 0.9vw;
+    font-weight: 900;
+    content: "\f007";
+    color: var(--black);
+    position: absolute;
+    left: 0.01vw;
+    top: 0.1vh;
+    }
+
+    .users:before {
+        font-family: "Font Awesome 5 Free";
+        font-size: 0.9vw;
+        font-weight: 900;
+        content: "\f0c0";
+        color: var(--black);
+        position: absolute;
+        left: 0.01vw;
+        top: 0.1vh;
+        }
+
+    .folder:before {
+        font-family: "Font Awesome 5 Free";
+        font-size: 0.9vw;
+        font-weight: 900;
+        content: "\f07b";
+        color: var(--black);
+        position: absolute;
+        left: 0.01vw;
+        top: 4.1vh;
+        }
+
+        .share:before {
+            font-family: "Font Awesome 5 Free";
+            font-size: 0.9vw;
+            font-weight: 900;
+            content: "\f1e0";
+            color: var(--black);
+            position: absolute;
+            left: 0.01vw;
+            top: 10.2vh;
+            }
+    
+            .check1:before {
+                font-family: "Font Awesome 5 Free";
+                font-size: 0.9vw;
+                font-weight: 900;
+                content: "\f00c";
+                color: var(--blue);
+                position: absolute;
+                left: 0.01vw;
+                top: 0.08vh;
+                }
+
+                .check2:before {
+                    font-family: "Font Awesome 5 Free";
+                    font-size: 0.9vw;
+                    font-weight: 900;
+                    content: "\f00c";
+                    color: var(--blue);
+                    position: absolute;
+                    left: 0.01vw;
+                    top: 6.2vh;
+                    }
+
+.lis::after{
+    margin: 5px;
+}
+
+
+
+.lis, .ph5 {
+    padding-bottom: 2vh;
+}
+
+
+/* test scroll */
+
+#scroll{
+    background-color: var(--white);
+    scroll-behavior: smooth;
+}
+
+/*  */
 
 /* ------------------------------ */
     /* test hoover */
@@ -188,3 +298,40 @@ h1{
 
 
 /* ------------------------------ */
+
+/* flex cards */
+
+.price{
+    margin: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+}
+
+.flex2b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+
+.flex3{
+    display: flex;
+    flex-direction: column;
+    height: 14vh;
+    justify-content: space-between;
+}
+
+.hrl{
+    width: 3vw;
+}
+
+/*  */
