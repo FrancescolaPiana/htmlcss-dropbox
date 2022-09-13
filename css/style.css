@@ -213,7 +213,7 @@ h1{
         content: "\f0c0";
         color: var(--black);
         position: absolute;
-        left: 0.01vw;
+        left: 0.0001vw;
         top: 0.1vh;
         }
 
@@ -261,6 +261,51 @@ h1{
                     top: 6.2vh;
                     }
 
+                    .check2b:before {
+                        font-family: "Font Awesome 5 Free";
+                        font-size: 0.9vw;
+                        font-weight: 900;
+                        content: "\f00c";
+                        color: var(--blue);
+                        position: absolute;
+                        left: 0.01vw;
+                        top: 4vh;
+                        }
+
+                    .check3:before {
+                        font-family: "Font Awesome 5 Free";
+                        font-size: 0.9vw;
+                        font-weight: 900;
+                        content: "\f00c";
+                        color: var(--blue);
+                        position: absolute;
+                        left: 0.01vw;
+                        top: 10.2vh;
+                        }
+
+                        .check4:before {
+                            font-family: "Font Awesome 5 Free";
+                            font-size: 0.9vw;
+                            font-weight: 900;
+                            content: "\f00c";
+                            color: var(--blue);
+                            position: absolute;
+                            left: 0.01vw;
+                            top: 16.2vh;
+                            }
+
+                            .check5:before {
+                                font-family: "Font Awesome 5 Free";
+                                font-size: 0.9vw;
+                                font-weight: 900;
+                                content: "\f00c";
+                                color: var(--blue);
+                                position: absolute;
+                                left: 0.01vw;
+                                top: 22.5vh;
+                                }
+    
+
 .lis::after{
     margin: 5px;
 }
@@ -291,6 +336,9 @@ h1{
         background-color: rgba(74, 74, 74, 0.074);
     }
 
+    .fontpropiety2:hover, .fontpropiety3:hover{
+        background-color: #3884ff;
+    }
 
 
 
@@ -335,3 +383,7 @@ h1{
 }
 
 /*  */
+
+section{
+    margin-bottom: 5vh;
+}
