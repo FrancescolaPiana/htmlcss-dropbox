@@ -174,21 +174,21 @@ h1{
 }
 
 .radiusboxes{
-    width: 1.3vw;
-    height: 1.3vw;
+    width: 30px;
 }
 
 .cards{
     display: inline-block;
     border: 1px solid var(--lightgrey) ;
-    width: calc(46vw / 3 );
+    width: calc(1000px / 3 );
+    min-height: 800px;
 }
 
 .centr{
     text-align: center;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    font-size: 0.8vw;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;
     border-bottom: 1px solid var(--lightgrey) ;
 }
 
@@ -200,118 +200,137 @@ h1{
 .dots{
     display: inline-block block;
     list-style: none;
-    padding-left: 1.3vw;
+    padding-left: 30px;
     position: relative;
 }
 
 .user:before {
     font-family: "Font Awesome 5 Free";
-    font-size: 0.9vw;
+    font-size: 17px;
     font-weight: 900;
     content: "\f007";
     color: var(--black);
     position: absolute;
-    left: 0.01vw;
-    top: 0.1vh;
+    left: 2px;
+    top: 1px;
     }
 
     .users:before {
         font-family: "Font Awesome 5 Free";
-        font-size: 0.9vw;
+        font-size: 17px;
         font-weight: 900;
         content: "\f0c0";
         color: var(--black);
         position: absolute;
-        left: 0.0001vw;
-        top: 0.1vh;
+        left: 2px;
+        top: 2px;
         }
 
     .folder:before {
         font-family: "Font Awesome 5 Free";
-        font-size: 0.9vw;
+        font-size: 17px;
         font-weight: 900;
         content: "\f07b";
         color: var(--black);
         position: absolute;
-        left: 0.01vw;
-        top: 4.1vh;
+        left: 2px;
+        top: 39px;
         }
 
         .share:before {
             font-family: "Font Awesome 5 Free";
-            font-size: 0.9vw;
+            font-size: 17px;
             font-weight: 900;
             content: "\f1e0";
             color: var(--black);
             position: absolute;
-            left: 0.01vw;
-            top: 10.2vh;
+            left: 2px;
+            top: 98px;
             }
     
             .check1:before {
                 font-family: "Font Awesome 5 Free";
-                font-size: 0.9vw;
+                font-size: 17px;
                 font-weight: 900;
                 content: "\f00c";
                 color: var(--blue);
                 position: absolute;
-                left: 0.01vw;
-                top: 0.08vh;
+                left: 2px;
+                top: 2px;
+                }
+
+                #ds{
+                    padding-bottom: 0;
+                }
+
+                #dss{
+                    padding-bottom: 0;
                 }
 
                 .check2:before {
                     font-family: "Font Awesome 5 Free";
-                    font-size: 0.9vw;
+                    font-size: 17px;
                     font-weight: 900;
                     content: "\f00c";
                     color: var(--blue);
                     position: absolute;
-                    left: 0.01vw;
-                    top: 6.2vh;
+                    left: 2px;
+                    top: 60px;
                     }
 
                     .check2b:before {
                         font-family: "Font Awesome 5 Free";
-                        font-size: 0.9vw;
+                        font-size: 17px;
                         font-weight: 900;
                         content: "\f00c";
                         color: var(--blue);
                         position: absolute;
-                        left: 0.01vw;
-                        top: 4vh;
+                        left: 2px;
+                        top: 40px;
                         }
 
-                    .check3:before {
-                        font-family: "Font Awesome 5 Free";
-                        font-size: 0.9vw;
-                        font-weight: 900;
-                        content: "\f00c";
-                        color: var(--blue);
-                        position: absolute;
-                        left: 0.01vw;
-                        top: 10.2vh;
-                        }
-
-                        .check4:before {
+                        .check2c:before {
                             font-family: "Font Awesome 5 Free";
-                            font-size: 0.9vw;
+                            font-size: 17px;
                             font-weight: 900;
                             content: "\f00c";
                             color: var(--blue);
                             position: absolute;
-                            left: 0.01vw;
-                            top: 16.2vh;
+                            left: 2px;
+                            top: 40px;
+                            }
+
+                    .check3:before {
+                        font-family: "Font Awesome 5 Free";
+                        font-size: 17px;
+                        font-weight: 900;
+                        content: "\f00c";
+                        color: var(--blue);
+                        position: absolute;
+                        left: 2px;
+                        top: 78px;
+                        }
+
+                        .check4:before {
+                            font-family: "Font Awesome 5 Free";
+                            font-size: 17px;
+                            font-weight: 900;
+                            content: "\f00c";
+                            color: var(--blue);
+                            position: absolute;
+                            left: 2px;
+                            top: 136px;
                             }
 
                             .check5:before {
                                 font-family: "Font Awesome 5 Free";
-                                font-size: 0.9vw;
+                                font-size: 17px;
                                 font-weight: 900;
                                 content: "\f00c";
                                 color: var(--blue);
                                 position: absolute;
-                                left: 0.01vw;
-                                top: 22.5vh;
+                                left: 2px;
+                                top: 195px;
                                 }
     
 
@@ -322,7 +341,7 @@ h1{
 
 
 .lis, .ph5 {
-    padding-bottom: 2vh;
+    padding-bottom: 18.5px;
 }
 
 
@@ -369,14 +388,14 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 40vh;
+    height: 380px;
 }
 
 .flex2b{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 10vh;
+    min-height: 100px;
 }
 
 
@@ -385,6 +404,7 @@ h1{
     flex-direction: column;
     height: 14vh;
     justify-content: space-between;
+    min-height: 150px;
 }
 
 .hrl{
@@ -395,5 +415,5 @@ h1{
 
 section{
     margin-bottom: 5vh;
-    min-width: 1000px;
+    min-width: 1100px;
 }
