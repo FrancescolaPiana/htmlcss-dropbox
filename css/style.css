@@ -102,6 +102,15 @@ nav{
     max-width: 160px;
 }
 
+.fontpropiety5{
+    font-size: 16px;
+    color: var(--black);
+    background-color: var(--white);
+    padding: 10px 50px;
+    text-align: center;
+    
+}
+
 
 
 .firstimp{
@@ -127,6 +136,19 @@ nav{
     width: 350px;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.flex4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.lilla{
+    display: flex;
+    background-color: #B4D0E7;
+    padding: 7vw;
 }
 
 .font1{
@@ -165,6 +187,10 @@ h1{
     h3{
         font-size: 25px;
         margin-bottom: 20px;
+    }
+
+    h4{
+        font-size: 18px;
     }
 
     h5{
@@ -456,6 +482,80 @@ section{
     margin-bottom: 150px;
 }
 
+.section5{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 40px;
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+
+}
+
+/* descrizioni */
+
+#f1a{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+#f2a{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+#f3a{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+
+#f1a:hover + .hidden{
+    visibility: visible;
+    position: relative;
+    top: 48%;
+} 
+
+#f2a:hover + .hidden2{
+    visibility: visible;
+    position: relative;
+    top: 48%;
+} 
+
+#f3a:hover + .hidden3{
+    visibility: visible;
+    position: relative;
+    top: 48%;
+} 
+
+/* noon worka */
+
+/* #f1c:hover + #f1b{
+    transform: rotate(90deg);
+} */
+
+
+.hidden{
+    visibility: hidden;
+    position: absolute;
+}
+
+.hidden2{
+    visibility: hidden;
+    position: absolute;
+}
+
+.hidden3{
+    visibility: hidden;
+    position: absolute;
+}
+
+/* ----------------------------------- */
+
+
 .flexcard1{
     display: flex;
     margin: 30px;
@@ -513,7 +613,7 @@ section{
     min-width: 1000px;
     width: 1000px;
     margin: 0 auto;
-    margin-bottom: 180px;
+    margin-bottom: 140px;
     padding-right: 300px;
 }
 
@@ -522,7 +622,6 @@ section{
     min-width: 1200px;
     min-height: 400px;
     max-height: 32vw;
-    margin-bottom: 500px;
 }
 
 .quadratiloghi{
@@ -645,7 +744,7 @@ section{
 #img6{
     filter: invert(100);
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 26%;
     width: 8vw;
     min-width: 95px;
@@ -695,3 +794,46 @@ section{
 .hrl2{ 
     width: 6vw;
 }
+
+.fontp{
+    color: #61082B;
+    max-width: 500px;
+    margin: 0;
+}
+
+        /* footer */
+            footer{
+                background-color: var(--black);
+            }
+
+            .gs{
+              
+            }
+
+            .white{
+                color: var(--white);
+                list-style: none;
+                margin-bottom: 15px;
+            }
+
+            .white2{
+                color: var(--white);
+                list-style: none;
+                margin-bottom: 30px;
+                font-size: 25px;
+            }
+            
+            .foot{
+                margin: 0 auto;
+                padding: 6% 4%;
+            }
+
+            .flexfoot{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                max-width: 1200px;
+                padding: 6% 4%;
+                margin: 0 auto;
+                
+            }
