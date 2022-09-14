@@ -93,6 +93,16 @@ nav{
     text-align: center;
 }
 
+.fontpropiety4{
+    font-size: 16px;
+    color: var(--black);
+    border: 1px solid var(--black);
+    padding: 10px;
+    text-align: center;
+    max-width: 160px;
+}
+
+
 
 .firstimp{
     width: 90%;
@@ -104,6 +114,7 @@ nav{
     padding-top: 80px;
     min-width: 1200px;
     padding-left: 10%;
+    min-width: 1200px;
 }
 
 .flex1{
@@ -128,6 +139,7 @@ h1{
     font-size: 77px;
     margin-right: 400px;
     padding-bottom: 50px;
+    min-width: 1100px;
 }
 
 .arrow{
@@ -151,7 +163,8 @@ h1{
     }
 
     h3{
-        font-size: 28px;
+        font-size: 25px;
+        margin-bottom: 20px;
     }
 
     h5{
@@ -160,6 +173,10 @@ h1{
 
     .font5{
         font-size: 15px;
+    }
+
+    .font6{
+        font-size: 16px;
     }
 
 .checkbox{
@@ -180,7 +197,7 @@ h1{
 .cards{
     display: inline-block;
     border: 1px solid var(--lightgrey) ;
-    width: calc(1000px / 3 );
+    width: calc(900px / 3 );
     min-height: 800px;
 }
 
@@ -415,5 +432,266 @@ h1{
 
 section{
     margin-bottom: 5vh;
-    min-width: 1100px;
+    min-width: 1000px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+/* .boxsec2{
+    /border-bottom: 1px solid var(--lightgrey); 
+} */
+
+.section2{
+    border: 1px solid var(--lightgrey);
+
+    margin-bottom: 150px;
+}
+
+.section3{
+    margin-bottom: 150px;
+}
+
+.section4{
+    margin-bottom: 150px;
+}
+
+.flexcard1{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+    min-height: 160px;
+}
+
+.flexcard2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexcard3{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.flexsubcard1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flexsubcard2{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    max-height: 300px;
+}
+
+.sar{
+    margin-bottom: 30px;
+}
+
+.widthm{
+    padding: 10px 40px 10px 40px;
+}
+
+.partner{
+    width: 600px;
+}
+
+.descard{
+    width: calc(900px / 3 );
+    display: flex;
+    flex-direction: column;
+}
+
+.headsec5{
+    margin-bottom: 5vh;
+    min-width: 1000px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 180px;
+    padding-right: 300px;
+}
+
+.flexlog{
+    display: flex;
+    min-width: 1200px;
+    min-height: 400px;
+    max-height: 32vw;
+    margin-bottom: 500px;
+}
+
+.quadratiloghi{
+    display: flex;
+    width: calc(100% / 3);
+}
+
+/* immagini compagnie */
+
+.imgbo{
+    border: 1px solid var(--black);
+    width: 50%;
+    min-height: 200px;
+    height: 16vw;
+    background: #A2D39B;
+    position: relative;
+    border: 0.8vw solid #d1e9cd ;
+}
+.imgbo2{
+    width: 50%;
+    min-height: 200px;
+    height: 16vw;
+    background: #61082B;
+    position: relative;
+}
+.imgbo3{
+    width: 50%;
+    min-height: 200px;
+    height: 16vw;
+    background: #0093CE;
+    position: relative;
+}
+
+.imgbo4{
+    width: 50%;
+    min-height: 200px;
+    height: 16vw;
+    background: #FF1C1C;
+    position: relative;
+}
+
+.imgbo5{
+    width: 50%;
+    min-height: 200px;
+    height: 16vw;
+    background: #D5001F;
+    position: relative;
+}
+
+.imgbo6{
+    width: 50%;
+    min-height: 200px;
+    height: 16vw;
+    background: #B4D0E7;
+    position: relative;
+}
+
+.imgbo7{
+    width: 50%;
+    min-height: 200px;
+    height: 16vw;
+    background: #0D2481;
+    position: relative;
+}
+
+.imgbo8{
+    width: 50%;
+    min-height: 200px;
+    height: 16vw;
+    background: #FFD830;
+    position: relative;
+}
+
+/* ----------- */
+
+#img1{
+    filter: invert(100);
+    position: absolute;
+    top: 44%;
+    left: 24%;
+    width: 8vw;
+    min-width: 95px;
+}
+#img2{
+    filter: invert(100);
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    width: 8vw;
+    min-width: 95px;
+}
+
+#img3{
+    filter: invert(100);
+    position: absolute;
+    top: 45%;
+    left: 26%;
+    width: 8vw;
+    min-width: 95px;
+}
+
+#img4{
+    filter: invert(100);
+    position: absolute;
+    top: 38%;
+    left: 26%;
+    width: 8vw;
+    min-width: 95px;
+}
+
+#img5{
+    filter: invert(100);
+    position: absolute;
+    top: 40%;
+    left: 26%;
+    width: 8vw;
+    min-width: 95px;
+}
+
+#img6{
+    filter: invert(100);
+    position: absolute;
+    top: 40%;
+    left: 26%;
+    width: 8vw;
+    min-width: 95px;
+}
+
+#img7{
+    filter: invert(100);
+    position: absolute;
+    top: 38%;
+    left: 26%;
+    width: 8vw;
+    min-width: 95px;
+}
+
+#img8{
+    filter: invert(100);
+    position: absolute;
+    top: 33%;
+    left: 26%;
+    width: 8vw;
+    min-width: 95px;
+}
+
+
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.saro{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    min-width: 200px;
+    min-height: 400px;
+    width: 35%;
+    gap: 3vw;
+    overflow-y: auto;
+    height: 32vw;
+    background-color: #f5f5f5;
+}
+
+.dim1{
+    width: 280px;
+}
+
+.hrl2{ 
+    width: 6vw;
 }
