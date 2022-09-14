@@ -806,9 +806,7 @@ section{
                 background-color: var(--black);
             }
 
-            .gs{
-              
-            }
+            
 
             .white{
                 color: var(--white);
@@ -825,15 +823,44 @@ section{
             
             .foot{
                 margin: 0 auto;
-                padding: 6% 4%;
+            
             }
 
             .flexfoot{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
-                max-width: 1200px;
-                padding: 6% 4%;
+                max-width: 1300px;
+                padding: 4% 0%;
                 margin: 0 auto;
                 
+            }
+
+            .foot2{
+                margin: 0 auto;
+                max-width: 1200px;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                padding-bottom: 50px;
+            
+            }
+
+            .gs{
+                display: block;
+                height: 1px;
+                background-color: var(--lightgrey);
+                width: 120px;
+            }
+
+            .flexbod{
+                height: 100px; 
+                color: var(--lightgrey);
+                background-color: #000000;
+            }
+
+            .pds{
+                margin-top: 50px;
+                padding-right: 5px;
+               color: var(--lightgrey) ; 
             }
